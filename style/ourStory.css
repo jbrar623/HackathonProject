@@ -5,11 +5,8 @@
 
   .carousel {
     position:absolute;
-    /* width: 100%; */
     max-width: 100%;
     overflow: hidden;
-    height:50%
-   
   }
   
   .carousel-inner {
@@ -20,7 +17,7 @@
   
   .carousel-item {
     width: 100%;
-    flex: 0 0 auto;
+    flex:auto; 
   }
 
   .carousel-item img{
@@ -45,6 +42,10 @@
   
   .next {
     right: 10px;
+  }
+
+  .footer {
+   align-content: center;
   }
   
 
