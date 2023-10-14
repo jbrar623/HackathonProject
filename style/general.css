@@ -6,18 +6,18 @@
     left: 0;
     right: 0;
     background-color: black;
-    padding: 10px;
-    text-align: center;
+    
+
 }
 
 body{
     color: white;
-    background-color: black;
-    font-family: lato;
+    background-color: #2b2828;
+    font-family:  sans-serif
 }
 
 .button {
-    background-color: #008080;
+    background-color: #399197;
     border: none;
     color: white;
     padding: 15px 15px;
