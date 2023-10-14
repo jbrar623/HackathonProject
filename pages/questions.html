@@ -3,41 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/design/secondPage.css" rel="stylesheet">
     <link href = "../style/general.css" rel = "stylesheet">
+    <!-- <link href="/style/questions.css" rel="stylesheet"> -->
+    <link href="/style/questions.css" rel="stylesheet">
+    
     <title>Document</title>
 </head>
 
-<header>
-    <h1><img src ="../images/logo.png" alt = "Logo" width = "70"> Turning Point</h1>
-    <div id="nav">
-        <a class = "button" href="../pages/index.html" id="currentposition">Home</a>
-        <a class = "button" href="../pages/substance.html" >Substance Specific Resources</a>
-        <a class = "button" href="../pages/community.html">Community Resource/Event</a>
-        <a class = "button" href="../pages/ourStory.html">Our Story</a>        
-    </div>
-</header>
+
 
 <body>
-    <fieldset class="mainFieldset">
+    <header class="nav">
+        <h1><img src ="../images/logo.png" alt = "Logo" width = "70"> Turning Point</h1>
+        <div id="nav">
+            <a class = "button" href="../pages/index.html" id="currentposition">Home</a>
+            <a class = "button" href="../pages/substance.html" >Substance Specific Resources</a>
+            <a class = "button" href="../pages/community.html">Community Resource/Event</a>
+            <a class = "button" href="../pages/ourStory.html">Our Story</a>        
+        </div>
+    </header>
+
+    <div class="mainDiv">
+    <fieldset class="mainFieldSet">
         <form >
-            
-            <span class="mainFieldsetItems">
-                <p>What Addiction are you suseptible to?</p>
+            <div class="mainFieldsetItems">
+                <p >Do you spend a lot of time obtaining, using, or recovering from the effects of substances?</p>
                 
-                <input type="radio" id="NicotineAddiction" name="WhatAddictions?">
-                <label for="NicotineAddiction">Nicotine</label>
+                <input type="radio" id="NeverRecovering" name="TimeWastedUsingSubstances" value="Never">
+                <label for="NeverRecovering">Never</label>
                 
-                <input type="radio" id="LackofSleepAddiction" name="WhatAddictions?">
-                <label for="LackofSleepAddiction">Lack of Sleep</label>
+                <input type="radio" id="RarelyRecovering" name="TimeWastedUsingSubstances" value="Rarely">
+                <label for="RarelyRecovering">Rarely</label>
 
-                <input type="radio" id="WhatAddictions" name="WhatAddictions?">
-                <label for="WhatAddictions">Phone Number</label>
-            </span>
+                <input type="radio" id="SometimesRecovering" name="TimeWastedUsingSubstances" value="Sometimes">
+                <label for="SometimesRecovering">Sometimes</label>
 
-            
-            
-            <span class="mainFieldsetItems">
+                <input type="radio" id="OftenRecovering" name="TimeWastedUsingSubstances" value="Often">
+                <label for="OftenRecovering">Often</label>
+
+                <input type="radio" id="AlwaysRecovering" name="TimeWastedUsingSubstances" value="Always">
+                <label for="AlwaysRecovering">Always</label>
+            </div>      
+            <div class="mainFieldsetItems">
                 <p>How often do you find yourself using substances(alcohol, drugs) more than intended?</p>
                 <input type="radio" id="NeverUseSubstances" name="UseSubstances">
                 <label for="NeverUseSubstances">Never</label>
@@ -53,11 +60,8 @@
 
                 <input type="radio" id="AlwaysUseSubstances" name="UseSubstances">
                 <label for="AlwaysUseSubstances">Always</label>
-            </span>
-
-            
-        
-            <span class="mainFieldsetItems">
+            </div>
+            <div class="mainFieldsetItems">
                 <p>Is your substance use causing problems in your relationships?</p>
                 <input type="radio" id="NeverAffectRelationship" name="SubstanceRelationship">
                 <label for="NeverAffectRelationship">Never</label>
@@ -73,9 +77,8 @@
 
                 <input type="radio" id="AlwaysAffectRelationship" name="SubstanceRelationship">
                 <label for="AlwaysAffectRelationship">Always</label>
-            </span>
-            
-            <span class="mainFieldsetItems">
+            </div>
+            <div class="mainFieldsetItems">
                 <p>Have you noticed a tolerance in substances, needing an increase in usage?</p>
                 <input type="radio" id="NeverAffectTolerance" name="SubstanceTolerance">
                 <label for="NeverAffectTolerance">Never</label>
@@ -91,11 +94,8 @@
 
                 <input type="radio" id="AlwaysAffectTolerance" name="SubstanceTolerance">
                 <label for="AlwaysAffectTolerance">Always</label>
-            </span>
-            
-
-            
-            <span class="mainFieldsetItems">
+            </div>
+            <div class="mainFieldsetItems">
                 <p>Do you feel guilty after using a substance</p>
                 <input type="radio" id="NeverGuiltyUsage" name="GuiltyUsage">
                 <label for="NeverGuiltyUsage">Never</label>
@@ -111,11 +111,126 @@
 
                 <input type="radio" id="AlwaysGuiltyUsage" name="GuiltyUsage">
                 <label for="AlwaysGuiltyUsage">Always</label>
-            </span>
+            </div>
+            <div class="mainFieldsetItems">
+                <p>Do you feel guilty after using a substance</p>
+                <input type="radio" id="NeverGuiltyUsage" name="GuiltyUsage">
+                <label for="NeverGuiltyUsage">Never</label>
 
+                <input type="radio" id="RarelyGuiltyUsage" name="GuiltyUsage">
+                <label for="RarelyGuiltyUsage">Rarely</label>
+
+                <input type="radio" id="SometimesGuiltyUsage" name="GuiltyUsage">
+                <label for="SometimesGuiltyUsage">Sometimes</label>
+
+                <input type="radio" id="OftenGuiltyUsage" name="GuiltyUsage">
+                <label for="OftenGuiltyUsage">Often</label>
+
+                <input type="radio" id="AlwaysGuiltyUsage" name="GuiltyUsage">
+                <label for="AlwaysGuiltyUsage">Always</label>
+            </div>
+
+            <div class="mainFieldsetItems">
+                <p>Do you feel guilty after using a substance</p>
+                <input type="radio" id="NeverGuiltyUsage" name="GuiltyUsage">
+                <label for="NeverGuiltyUsage">Never</label>
+
+                <input type="radio" id="RarelyGuiltyUsage" name="GuiltyUsage">
+                <label for="RarelyGuiltyUsage">Rarely</label>
+
+                <input type="radio" id="SometimesGuiltyUsage" name="GuiltyUsage">
+                <label for="SometimesGuiltyUsage">Sometimes</label>
+
+                <input type="radio" id="OftenGuiltyUsage" name="GuiltyUsage">
+                <label for="OftenGuiltyUsage">Often</label>
+
+                <input type="radio" id="AlwaysGuiltyUsage" name="GuiltyUsage">
+                <label for="AlwaysGuiltyUsage">Always</label>
+            </div>
+
+            <div class="mainFieldsetItems">
+                <p>Do you feel guilty after using a substance</p>
+                <input type="radio" id="NeverGuiltyUsage" name="GuiltyUsage">
+                <label for="NeverGuiltyUsage">Never</label>
+
+                <input type="radio" id="RarelyGuiltyUsage" name="GuiltyUsage">
+                <label for="RarelyGuiltyUsage">Rarely</label>
+
+                <input type="radio" id="SometimesGuiltyUsage" name="GuiltyUsage">
+                <label for="SometimesGuiltyUsage">Sometimes</label>
+
+                <input type="radio" id="OftenGuiltyUsage" name="GuiltyUsage">
+                <label for="OftenGuiltyUsage">Often</label>
+
+                <input type="radio" id="AlwaysGuiltyUsage" name="GuiltyUsage">
+                <label for="AlwaysGuiltyUsage">Always</label>
+            </div>
+            
+            <div class="mainFieldsetItems">
+                <p>Do you feel guilty after using a substance</p>
+                <input type="radio" id="NeverGuiltyUsage" name="GuiltyUsage">
+                <label for="NeverGuiltyUsage">Never</label>
+
+                <input type="radio" id="RarelyGuiltyUsage" name="GuiltyUsage">
+                <label for="RarelyGuiltyUsage">Rarely</label>
+
+                <input type="radio" id="SometimesGuiltyUsage" name="GuiltyUsage">
+                <label for="SometimesGuiltyUsage">Sometimes</label>
+
+                <input type="radio" id="OftenGuiltyUsage" name="GuiltyUsage">
+                <label for="OftenGuiltyUsage">Often</label>
+
+                <input type="radio" id="AlwaysGuiltyUsage" name="GuiltyUsage">
+                <label for="AlwaysGuiltyUsage">Always</label>
+            </div>
+
+            <div class="mainFieldsetItems">
+                <p>Do you feel guilty after using a substance</p>
+                <input type="radio" id="NeverGuiltyUsage" name="GuiltyUsage">
+                <label for="NeverGuiltyUsage">Never</label>
+
+                <input type="radio" id="RarelyGuiltyUsage" name="GuiltyUsage">
+                <label for="RarelyGuiltyUsage">Rarely</label>
+
+                <input type="radio" id="SometimesGuiltyUsage" name="GuiltyUsage">
+                <label for="SometimesGuiltyUsage">Sometimes</label>
+
+                <input type="radio" id="OftenGuiltyUsage" name="GuiltyUsage">
+                <label for="OftenGuiltyUsage">Often</label>
+
+                <input type="radio" id="AlwaysGuiltyUsage" name="GuiltyUsage">
+                <label for="AlwaysGuiltyUsage">Always</label>
+            </div>
+            
+            <fieldset class="mainFieldsetItems">
+                <p>
+                    <p>**Scoring:**
+                        Add up the points for each of your answers:
+                        - A = 0 points
+                        - B = 1 point
+                        - C = 2 points
+                        - D = 3 points
+                        - E = 4 points
+                    </p>
+
+                    <p>**Interpretation:**</p>
+                    <p>- 0-7 points: Low likelihood of substance addiction
+                    - 8-15 points: Moderate risk of substance addiction; consider seeking professional advice
+                    - 16-30 points: High risk of substance addiction; it is strongly recommended to seek professional help immediately
+                    </p>
+                </p>
+            </fieldset>
+            
+            <div class="buttonDiv">
+                <button type="submit" value="Submit">Submit</button>
+                <button type="reset" value="Reset">Reset</button>
+            </div>
             
 
         </form>
     </fieldset>
+    </div>
+
+    
 </body>
 </html>

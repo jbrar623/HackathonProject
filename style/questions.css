@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    grid-template-rows: 2, 1fr;
+}
+.nav{
+    grid-row: 1/2;
+}
+.mainDiv{
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 700px;
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+}
+.mainFieldSet{
+    background-color: lightgreen;
+    margin-top: 2%;
+    min-height: 621.38px;
+    max-width: 473.59px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mainFieldsetItems{
+    background-color: lightgoldenrodyellow;
+    border-style: outset;
+    color: black;
+}
+button{
+    background-color: bisque;
+    font-size: 1em;
+    /* padding: 2em; */
+}
+.buttonDiv{
+    display: flex;
+    justify-content: end;
+}
