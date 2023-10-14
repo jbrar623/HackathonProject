@@ -1,0 +1,15 @@
+body{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+}
+.mainFieldset{
+    margin-top: 2%;
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+}
+.mainFieldsetItems{
+background-color: lightgreen;
+}
