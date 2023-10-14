@@ -25,7 +25,7 @@
 
     <div class="mainDiv">
     <fieldset class="mainFieldSet">
-        <form >
+        <form action="postmethod.php">
             <div class="mainFieldsetItems">
                 <p >Do you spend a lot of time obtaining, using, or recovering from the effects of substances?</p>
                 
@@ -96,7 +96,7 @@
                 <label for="AlwaysAffectTolerance">Always</label>
             </div>
             <div class="mainFieldsetItems">
-                <p>Do you feel guilty after using a substance</p>
+                <p>Do you feel guilty or Remorseful after using a substance?</p>
                 <input type="radio" id="NeverGuiltyUsage" name="GuiltyUsage" value="Never">
                 <label for="NeverGuiltyUsage">Never</label>
 
@@ -113,21 +113,21 @@
                 <label for="AlwaysGuiltyUsage">Always</label>
             </div>
             <div class="mainFieldsetItems">
-                <p>Do you spend a lot of time obtaining, using, or recovering from the effects of substances?</p>
-                <input type="radio" id="NeverRecovering" name="HarmedFromSubstances" value="Never">
-                <label for="NeverRecovering">Never</label>
+                <p>Have you sought help for your substance use in the past?</p>
+                <input type="radio" id="NeverAskedForHelpFromSubstanceAbuse" name="AskedForHelpFromSubstanceAbuse" value="Never">
+                <label for="NeverAskedForHelpFromSubstanceAbuse">Never</label>
 
-                <input type="radio" id="RarelyRecovering" name="HarmedFromSubstances" value="Rarely">
-                <label for="RarelyRecovering">Rarely</label>
+                <input type="radio" id="RarelyAskedForHelpFromSubstanceAbuse" name="AskedForHelpFromSubstanceAbuse" value="Rarely">
+                <label for="RarelyAskedForHelpFromSubstanceAbuse">Rarely</label>
 
-                <input type="radio" id="SometimesRecovering" name="HarmedFromSubstances" value="Sometimes">
-                <label for="SometimesRecovering">Sometimes</label>
+                <input type="radio" id="SometimesAskedForHelpFromSubstanceAbuse" name="AskedForHelpFromSubstanceAbuse" value="Sometimes">
+                <label for="SometimesAskedForHelpFromSubstanceAbuse">Sometimes</label>
 
-                <input type="radio" id="OftenRecovering" name="HarmedFromSubstances" value="Often">
-                <label for="OftenRecovering">Often</label>
+                <input type="radio" id="OftenAskedForHelpFromSubstanceAbuse" name="AskedForHelpFromSubstanceAbuse" value="Often">
+                <label for="OftenAskedForHelpFromSubstanceAbuse">Often</label>
 
-                <input type="radio" id="AlwaysRecovering" name="HarmedFromSubstances" value="Always">
-                <label for="AlwaysRecovering">Always</label>
+                <input type="radio" id="AlwaysAskedForHelpFromSubstanceAbuse" name="AskedForHelpFromSubstanceAbuse" value="Always">
+                <label for="AlwaysAskedForHelpFromSubstanceAbuse">Always</label>
             </div>
 
             <div class="mainFieldsetItems">
@@ -157,7 +157,7 @@
                 <input type="radio" id="RarelyLegalProblemsFromSubstanceUse" name="LegalProblemsFromSubstanceUse" value="Rarely">
                 <label for="RarelyLegalProblemsFromSubstanceUse">Rarely</label>
 
-                <input type="radio" id="SometimesLegalProblemsFromSubstanceUsee" name="LegalProblemsFromSubstanceUse" value="Sometimes">
+                <input type="radio" id="SometimesLegalProblemsFromSubstanceUse" name="LegalProblemsFromSubstanceUse" value="Sometimes">
                 <label for="SometimesLegalProblemsFromSubstanceUse">Sometimes</label>
 
                 <input type="radio" id="OftenLegalProblemsFromSubstanceUse" name="LegalProblemsFromSubstanceUse" value="Often">
@@ -215,10 +215,10 @@
                     </p>
 
                     <p>**Interpretation:**</p>
-                    <p>- 0-7 points: Low likelihood of substance addiction
-                    - 8-15 points: Moderate risk of substance addiction; consider seeking professional advice
-                    - 16-30 points: High risk of substance addiction; it is strongly recommended to seek professional help immediately
-                    </p>
+                    <p>- 0-7 points: Low likelihood of substance addiction</p>
+                    <p>- 8-15 points: Moderate risk of substance addiction; consider seeking professional advice</p>
+                    <p>- 16-30 points: High risk of substance addiction; it is strongly recommended to seek professional help immediately</p>
+                    
                 </p>
             </fieldset>
             

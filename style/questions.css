@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 2, 1fr;
+    grid-template-rows: 4, 1fr;
 }
 .nav{
     grid-row: 1/2;
@@ -11,15 +11,20 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-image: url(/images/image\ \(1\).png); /*Used https://app.haikei.app/*/
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
     min-height: 700px;
     height: 100%;
     width: 100%;
     overflow:hidden;
 }
+
 .mainFieldSet{
-    background-color: lightgreen;
+    background-color: #265f63;
     margin-top: 2%;
+    margin-bottom: 2%;
     min-height: 621.38px;
     max-width: 473.59px;
 }
@@ -30,13 +35,13 @@ form{
 }
 .mainFieldsetItems{
     background-color: lightgoldenrodyellow;
-    border-style: outset;
+    border-radius: 25px;
     color: black;
+    padding: 3px;
 }
 button{
     background-color: bisque;
     font-size: 1em;
-    /* padding: 2em; */
 }
 .buttonDiv{
     display: flex;
