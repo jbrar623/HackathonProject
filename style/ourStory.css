@@ -17,7 +17,7 @@
   
   .carousel-item {
     width: 100%;
-    flex:auto; 
+    flex:0 0 100; 
   }
 
   .carousel-item img{
@@ -44,9 +44,9 @@
     right: 10px;
   }
 
-  .footer {
+  /* .footer {
    align-content: center;
-  }
+  } */
   
 
 @media screen and (min-width: 790px){
