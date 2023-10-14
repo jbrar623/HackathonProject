@@ -45,24 +45,39 @@
 }
 #previous-events{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
-    height: 500px;
+    grid-template-columns: 0.5fr 2.5fr 0.5fr 2.5fr 0.5fr 2.5fr 0.5fr;
+    height: 550px;
     background-color: #294B4D;
 }
 
 #one{
     grid-column-start: 2;
     grid-column-end: 3;
+    text-align: center;
+    background-color: #2b2828;
+    padding: 30px;
+    height: 350px;
+    border-radius: 10px;
 }
 
 #two{
     grid-column-start: 4;
     grid-column-end: 5;
+    text-align: center;
+    background-color: #2b2828;
+    padding: 30px;
+    height: 350px;
+    border-radius: 10px;
 }
 
 #three{
     grid-column-start: 6;
     grid-column-end: 7;
+    text-align: center;
+    background-color: #2b2828;
+    padding: 30px;
+    height: 350px;
+    border-radius: 10px;
 }
 
 #prevevent{
