@@ -1,0 +1,19 @@
+#heading {
+    display: grid;
+    grid-template-columns: 1.5fr 3.5fr 3.5fr 1.5fr;
+    height: 500px;
+    width: 100%;
+    background-color: #294B4D;
+    margin: 0;
+    padding: 0;
+}
+
+#heading > h1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#heading > img{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
