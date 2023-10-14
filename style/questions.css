@@ -28,16 +28,18 @@ body{
     min-height: 621.38px;
     max-width: 473.59px;
 }
+.mainFieldsetItems p{
+    font-weight: bold;
+}
 form{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 .mainFieldsetItems{
-    background-color: lightgoldenrodyellow;
-    border-radius: 25px;
+    background-color: lightgrey;
     color: black;
-    padding: 3px;
+    padding: 5px;
 }
 button{
     background-color: bisque;
