@@ -37,6 +37,10 @@ body{
     border-radius: 5px;
   }
 
- .button a:hover{
-    background-color: crimson;
+ a:hover{
+    background-color: green;
+ }
+
+ a:link{
+    color: brown;
  }
