@@ -1,33 +1,71 @@
-/* .wrapper{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-} */
+.titleTop{
+    grid-column:1/3;
+    grid-row: 1;
+}
 
+.helpline{
+    grid-column:1/2;
+    grid-row:2;
+}
+
+.albertaSite{
+    grid-column:2/3;
+    grid-row:2;
+}
+
+.canadaHelpline{
+    grid-column:1/2;
+    grid-row: 3;
+}
+
+.camh{
+    grid-column: 2/3;
+    grid-row:3;
+}
+
+.topWrapper{
+    background-color: lightgray;
+    color:black;
+}
+
+.titleTop{
+    background-color: #294B4D;
+    color:white;
+}
+
+/* community events */
 .wrapper{
     background-color: lightgray;
     /* color: black; */
+    /* width:100% */
 }
 .eventcontainer{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 1fr;
 
-    border: 2px solid #265f63;
-    border-radius: 5px;
+    border: 2px solid #000000;
+    /* border-radius: 5px; */
     margin: 10px;
-    background-color: #399197;
+    background-color: #294B4D;
+    /* width:100%; */
+}
+
+.title{
+    grid-column:1/3;
+    grid-row:1;
 }
 
 .eventtitle{
     grid-column: 1/3;
-    grid-row: 1;
-    border-bottom: 2px solid #265f63;
+    grid-row: 1/2;
+    border-bottom: 2px solid #000000;
     text-align: center;
 }
 
 .eventlocation{
     grid-column: 1/2;
-    grid-row: 2;
+    grid-row: 2/3;
     
     padding:5px;
     margin: 2px;
@@ -35,7 +73,7 @@
 
 .signup{
     grid-column:2/3;
-    grid-row:2;
+    grid-row:2/3;
     
     text-align:center;
     align-self: center;
@@ -43,6 +81,13 @@
     /* border: 1px solid blue;
     margin: 2px;
     text-align: center; */
+}
+
+.title{
+    background-color: #294B4D;
+    /* padding:10px; */
+    /* width:100%; */
+    /* margin:10px; */
 }
 
 
@@ -58,11 +103,105 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .topWrapper{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+    }
+
+
 }
 
 @media screen and (max-width: 790px){
     .wrapper{
         display:grid;
         grid-template-columns: 1fr;
+    }
+
+    .topWrapper{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr;
+    }
+
+    .titleTop{
+        grid-column: 1/2;
+        grid-row:1;
+    }
+
+    .helpline{
+        grid-column: 1/2;
+        grid-row:2;
+    }
+
+    .albertaSite{
+        grid-column: 1/2;
+        grid-row:3;
+    }
+    
+    .canadaHelpline{
+        grid-column:1/2;
+        grid-row:4;
+    }
+
+    .camh{
+        grid-column: 1/2;
+        grid-row:5;
+    }
+
+    .title{
+        grid-column: 1;
+        grid-row:1;
+    }
+
+    .box1{
+        grid-column: 1/2;
+        grid-row:2;
+    }
+
+    .box2{
+        grid-column: 1/2;
+        grid-row:3;
+    }
+
+    .box3{
+        grid-column: 1/2;
+        grid-row:4; 
+    }
+
+    .box4{
+        grid-column: 1/2;
+        grid-row:5;
+    }
+
+    .box5{
+        grid-column: 1/2;
+        grid-row:6;
+    }
+
+    .box6{
+        grid-column: 1/2;
+        grid-row:7;
+    }
+
+    .box7{
+        grid-column: 1/2;
+        grid-row:8;
+    }
+
+    .box8{
+        grid-column: 1/2;
+        grid-row:9;
+    }
+
+    .box9{
+        grid-column: 1/2;
+        grid-row:10;
+    }
+
+    .box10{
+        grid-column: 1/2;
+        grid-row:11;
     }
 }
