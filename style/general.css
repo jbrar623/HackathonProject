@@ -32,7 +32,7 @@ body{
 }
 
 .button {
-    background-color: #399197;
+    /* background-color: #399197; */
     border: none;
     color: white;
     padding: 15px 15px;
@@ -40,5 +40,9 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
+
+ .button a:hover{
+    background-color: crimson;
+ }
