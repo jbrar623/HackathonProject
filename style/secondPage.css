@@ -3,13 +3,29 @@ display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
 align-items: center;
+background-image: linear-gradient(white, black);
+height: 599px;
+overflow: hidden;
+/* min-height: 250px; */
+
 }
 .mainFieldset{
     margin-top: 2%;
-    background-color: lightsalmon;
+    background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    box-shadow: 10px 5px 5px white;
+    
 }
 .mainFieldsetItems{
-background-color: lightgreen;
+    background-color: lightgoldenrodyellow;
+    border-style: outset;
+    
+}
+form{
+    font-family: Lato;
+    min-width: 550px;
+    height: 500px;
 }
