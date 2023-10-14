@@ -5,8 +5,24 @@
     bottom: 0;
     left: 0;
     right: 0;
-    
+    align-items: right;
+}
 
+h1{
+    display: flex;
+    align-items: center;
+}
+
+#heading{
+    height: 200px;
+    width: 100%;
+    background-color: #399197;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 body{
