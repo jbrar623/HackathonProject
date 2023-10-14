@@ -1,0 +1,129 @@
+#nicotine{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
+}
+
+#opioids{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
+
+}
+
+@media screen and (min-width: 790px){
+    #nicotine{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nicotineResources{
+    grid-column: 1/3;
+    grid-row: 1;
+
+    }
+
+    .nicotineSymptoms{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+
+    .nicotineEffects{
+        grid-column:2/3;
+        grid-row: 2;
+    }
+
+
+    /* naloxone */
+
+    .naloxoneVideo{
+        grid-column:1/3;
+        grid-row:1;
+    }
+
+    .naloxoneExplain{
+        grid-column:1/3;
+        grid-row:2;
+    }
+
+    .naloxoneShort{
+        grid-column:1/2;
+        grid-row:3;
+    }
+    
+    .naloxoneLong{
+        grid-column:2/3;
+        grid-row:3;
+    }
+
+    .opioidRef{
+        grid-column:1/3;
+        grid-row:4;
+    }
+
+    .opioidType{
+        grid-column:1/3;
+        grid-row:5;
+    }
+}
+
+@media screen and (max-width: 790px){
+    #nicotine{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nicotineResources{
+        grid-column: 1/2;
+        grid-row:1;
+    }
+
+    .nicotineSymptoms{
+        grid-column:1/2;
+        grid-row:2;
+    }
+
+    .nicotineEffects{
+        grid-column:1/2;
+        grid-row:3;
+    }
+
+    /* naloxone */
+
+    #opioid{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .naloxoneVideo{
+        grid-column:1/2;
+        grid-row:1;
+    }
+
+    .naloxoneExplain{
+        grid-column:1/2;
+        grid-row:2;
+    }
+
+    .naloxoneShort{
+        grid-column:1/2;
+        grid-row:3;
+    }
+    
+    .naloxoneLong{
+        grid-column:1/2;
+        grid-row:4;
+    }
+
+    .opioidRef{
+        grid-column:1/2;
+        grid-row:5;
+    }
+
+    .opioidType{
+        grid-column:1/2;
+        grid-row:6;
+    }
+}
