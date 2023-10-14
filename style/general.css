@@ -37,7 +37,7 @@ body{
     border-radius: 5px;
   }
 
- a:hover{
+ #nav a:hover{
     background-color: green;
  }
 
@@ -47,4 +47,12 @@ body{
 
  a:visited{
     color: brown;
+ }
+
+ #nav a:link{
+    color:white;
+ }
+
+ #nav a:visited{
+    color:white;
  }
