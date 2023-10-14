@@ -9,12 +9,14 @@
     grid-column:1/2;
     grid-row:2;
     padding-left: 25px;
+
 }
 
 .albertaSite{
     grid-column:2/3;
     grid-row:2;
     padding-left: 25px;
+
 
 }
 
@@ -30,6 +32,7 @@
     grid-row:3;
     padding-left: 25px;
 
+
 }
 
 .topWrapper{
@@ -40,6 +43,8 @@
 .titleTop{
     background-color: #294B4D;
     color:white;
+    padding-bottom: 40px;
+
 }
 
 /* community events */

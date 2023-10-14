@@ -16,6 +16,7 @@
     #nicotine{
         display:grid;
         grid-template-columns: 1fr 1fr;
+        padding-bottom: 40px;
     }
 
     .nicotineResources {
@@ -23,6 +24,8 @@
     grid-row: 1;
     background-color: #294B4D;
     padding: 10px;
+    padding-bottom: 40px;
+
     }
 
     .nicotineSymptoms{
@@ -31,6 +34,8 @@
         background-color: lightgray;
         color:black;
         padding:10px;
+        padding-bottom: 40px;
+
     }
 
     .nicotineEffects{
@@ -39,6 +44,8 @@
         background-color: lightgray;
         color: black;
         padding:10px;
+        padding-bottom: 40px;
+
     }
 
 
@@ -48,6 +55,8 @@
         grid-column:1/3;
         grid-row:1;
         padding:10px;
+        padding-bottom: 40px;
+
     }
 
     .naloxoneExplain{
@@ -55,6 +64,8 @@
         grid-row:2;
         background-color: #294B4D;
         padding:10px;
+        padding-bottom: 40px;
+
     }
 
     .naloxoneShort{
@@ -63,6 +74,7 @@
         background-color: lightgray;
         padding:10px;
         color:black;
+
     }
     
     .naloxoneLong{
@@ -79,6 +91,8 @@
         background-color: lightgray;
         padding:10px;
         color:black;
+        padding-bottom: 40px;
+
     }
 
     .opioidType{
@@ -86,6 +100,8 @@
         grid-row:5;
         background-color: #294B4D;
         padding:10px;
+        padding-bottom: 40px;
+
     }
 }
 
