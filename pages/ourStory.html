@@ -9,27 +9,7 @@
     <title>
         Our Story
     </title>
-    <script>
-        const carousel = document.querySelector('.carousel-inner');
-        const prevBtn = document.querySelector('.prev');
-        const nextBtn = document.querySelector('.next');
-        let currentIndex = 0;
-    
-        prevBtn.addEventListener('click', () => {
-          currentIndex = (currentIndex - 1 + 3) % 3;
-          updateCarousel();
-        });
-    
-        nextBtn.addEventListener('click', () => {
-          currentIndex = (currentIndex + 1) % 3;
-          updateCarousel();
-        });
-    
-        function updateCarousel() {
-          const offset = -currentIndex * 100 + '%';
-          carousel.style.transform = `translateX(${offset})`;
-        }
-      </script>
+   
 </head>
 
 <body>
@@ -100,6 +80,28 @@ Join us in this journey towards recovery. Together, we can overcome addiction, s
         
     </div>
     
+    <script>
+        const carousel = document.querySelector('.carousel-inner');
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
+        let currentIndex = 0;
+        
+        prevBtn.addEventListener('click', () => {
+          currentIndex = (currentIndex - 1 + 3) % 3;
+          updateCarousel();
+        });
+        
+        nextBtn.addEventListener('click', () => {
+          currentIndex = (currentIndex + 1) % 3;
+          updateCarousel();
+        });
+        
+        function updateCarousel() {
+          const offset = -currentIndex * 100 + '%';
+          carousel.style.transform = `translateX(${offset})`;
+        }
+      </script>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
