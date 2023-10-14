@@ -1,7 +1,10 @@
 .story{
     text-align: center;
 }
-
+.ourStory{
+  background-color: #265f63;
+  padding: 2em;
+}
 
   .carousel {
     position:absolute;
