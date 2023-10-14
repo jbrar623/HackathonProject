@@ -44,3 +44,7 @@ body{
  a:link{
     color: brown;
  }
+
+ a:visited{
+    color: brown;
+ }
