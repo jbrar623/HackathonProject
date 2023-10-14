@@ -16,4 +16,5 @@
 #heading > img{
     grid-column-start: 3;
     grid-column-end: 4;
+    padding: 40px;
 }
