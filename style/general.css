@@ -13,12 +13,6 @@ h1{
     align-items: center;
 }
 
-#heading{
-    height: 200px;
-    width: 100%;
-    background-color: #399197;
-}
-
 header{
     display: flex;
     justify-content: space-between;
