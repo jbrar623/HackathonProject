@@ -83,3 +83,14 @@
 #prevevent{
     padding: 70px;
 }
+
+#app{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
