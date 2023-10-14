@@ -9,9 +9,18 @@
 
   .carousel {
     position:absolute;
-    max-width: 100%;
+    width: 100%;
+    max-width: 800px;
     overflow: hidden;
   }
+
+  @media (min-width: 800px) {
+    .carousel {
+        left: calc(50% - 400px);
+    }
+  }
+
+
   
   .carousel-inner {
     display: flex;
