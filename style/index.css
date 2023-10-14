@@ -18,3 +18,53 @@
     grid-column-end: 4;
     padding: 40px;
 }
+
+#about-us{
+    display: grid;
+    grid-template-columns: 1fr 3.5fr 1fr 3.5fr 1fr;
+    height: 500px;
+}
+
+#left{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#right{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#button{
+    background-color: #294B4D;
+}
+
+#colorbackground{
+    background-color: #294B4D;
+    height: 700px;
+}
+#previous-events{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+    height: 500px;
+    background-color: #294B4D;
+}
+
+#one{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#two{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#three{
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+#prevevent{
+    padding: 70px;
+}
