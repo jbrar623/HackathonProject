@@ -1,7 +1,10 @@
 .story{
     text-align: center;
 }
-
+.ourStory{
+  background-color: #265f63;
+  padding: 2em;
+}
 
   .carousel {
     position:absolute;
@@ -17,7 +20,7 @@
   
   .carousel-item {
     width: 100%;
-    flex:0 0 auto;
+    flex:auto; 
   }
 
   .carousel-item img{
