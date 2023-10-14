@@ -1,6 +1,7 @@
 .story{
     text-align: center;
 }
+
 .ourStory{
   background-color: #265f63;
   padding: 2em;
@@ -20,7 +21,7 @@
   
   .carousel-item {
     width: 100%;
-    flex:auto; 
+    flex:0 0 auto; 
   }
 
   .carousel-item img{
@@ -47,9 +48,9 @@
     right: 10px;
   }
 
-  /* .footer {
+  .footer {
    align-content: center;
-  } */
+  }
   
 
 @media screen and (min-width: 790px){
